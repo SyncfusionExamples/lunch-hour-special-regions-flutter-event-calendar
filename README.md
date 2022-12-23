@@ -1,6 +1,6 @@
-# How to view schedule in the Flutter Calendar?
+# How to highlight the lunch hours in the Flutter Calendar?
 
-A quick-start example to help you to view schedule in the Flutter Calendar.
+A quick-start example to help you to highlight the lunch hours in the Flutter Calendar.
 
 Using the Calendar's [specialRegions](https://help.syncfusion.com/flutter/calendar/timslot-views#special-time-regions) property, you can highlight the time slot for lunch hour in the Flutter Event Calendar.
 
