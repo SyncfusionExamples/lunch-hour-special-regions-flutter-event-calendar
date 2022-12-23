@@ -6,6 +6,8 @@ Using the Calendar's [specialRegions](https://help.syncfusion.com/flutter/calend
 
 In this sample, the time regions are added as lunch hours in the Flutter Calendar by using the startTime and endTime properties of the time region.
 
+![LunchHours](https://user-images.githubusercontent.com/46158936/209322603-e68a5464-5864-45da-9683-74f831104e57.gif)
+
 For more details , refer to our [KB](https://www.syncfusion.com/kb/11710/how-to-highlight-the-lunch-hours-in-the-flutter-calendar) documentation.
 
 ## Requirements to run the demo
