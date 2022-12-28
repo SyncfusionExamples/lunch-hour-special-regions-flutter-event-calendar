@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
   State<StatefulWidget> createState() => ScheduleExample();
 }
@@ -18,7 +19,7 @@ class ScheduleExample extends State<MyApp> {
         body: SafeArea(
           child: SfCalendar(
             view: CalendarView.week,
-            allowedViews: [
+            allowedViews: const [
               CalendarView.day,
               CalendarView.week,
               CalendarView.workWeek,
@@ -77,9 +78,9 @@ class ScheduleExample extends State<MyApp> {
         endTime: DateTime(2020, 5, 29, 14, 0, 0),
         recurrenceRule: 'FREQ=WEEKLY;INTERVAL=1;BYDAY=MON,TUE,WED,THU,FRI',
         text: "Lunch",
-        color: Color(0xFFBD3D3D3),
+        color: const Color(0xFFBD3D3D3),
         enablePointerInteraction: true,
-        textStyle: TextStyle(
+        textStyle: const TextStyle(
           color: Colors.black,
         )));
 
@@ -92,4 +93,3 @@ class _DataSource extends CalendarDataSource {
     appointments = source;
   }
 }
-

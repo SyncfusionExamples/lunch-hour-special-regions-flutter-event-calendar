@@ -1,4 +1,4 @@
-package com.example.flutter_specialregion_sample
+package com.example.specialregion
 
 import io.flutter.embedding.android.FlutterActivity
 
